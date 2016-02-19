@@ -1,7 +1,7 @@
 # Maven, system path, properties and multi environment
 
 The purpose of this project is to show a minimal working example of a problem we encountered.
-We have dependencies on artefacts that defined a system path for some dependencies. This was done using properties that by default refer to a Windows path.
+We have dependencies on artefacts that defined a system path for their own dependencies. This was done using properties that by default refer to a Windows path.
 
 To build on Linux, we need to override this property. But despite that, we get the following message from Maven during build:
 
