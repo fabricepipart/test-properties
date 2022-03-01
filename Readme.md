@@ -41,7 +41,6 @@ You should get:
 [INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ buildme ---
 [INFO] test.properties:buildme:pom:1.0-SNAPSHOT
 [INFO] \- test.properties.installme:module:pom:1.0-SNAPSHOT:compile
-[INFO]    \- log4j:log4j:jar:1.2.17:compile
 ```
 
 ### On Linux
@@ -59,4 +58,3 @@ You should get:
 [INFO] test.properties:buildme:pom:1.0-SNAPSHOT
 [INFO] \- test.properties.installme:module:pom:1.0-SNAPSHOT:compile
 ```
-
